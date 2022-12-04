@@ -1,0 +1,268 @@
+:root {
+  --light-pink: rgb(220, 42, 149);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(215, 189, 193);
+}
+
+.page-section h3 {
+  font-size: 26px;
+  border-bottom: 2px solid black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin: 40px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+/* Flex nav with title */
+#flex-nav {
+  display: flex;
+  background-color: white;
+  padding: 5px;
+}
+
+.title {
+  margin: auto;
+  text-shadow: 1px 1px 2px pink;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+.nav-links {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-right: 50px;
+}
+
+.link1 {
+  border-right: 2px solid black;
+  padding-right: 5px;
+}
+
+.link2 {
+  border-right: 2px solid black;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.link3 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.nav-links a {
+  color: var(--light-pink);
+  text-decoration: none;
+}
+
+/* Hero image and text */
+.hero-banner {
+  background-image: url(../images/02-hero-bg.jpg);
+  height: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  float: left;
+  width: 300px;
+}
+
+.hero-text {
+  position: absolute;
+  padding-top: 220px;
+}
+
+h2 {
+  margin: auto;
+  color: var(--light-pink);
+}
+
+
+/* Portfolio container */
+.flex-container {
+  margin: 0px 5px;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "portfolio1   portfolio1   portfolio2"
+    "portfolio3   portfolio4    portfolio2"
+    "portfolio5   portfolio5    portfolio5"
+  ;
+}
+
+#portfolio1 {
+  grid-area: portfolio1;
+}
+
+#portfolio2 {
+  grid-area: portfolio2;
+}
+
+#portfolio3 {
+  grid-area: portfolio3;
+}
+
+#portfolio4 {
+  grid-area: portfolio4;
+}
+
+#portfolio5 {
+  grid-area: portfolio5;
+}
+
+.grid-area {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+  opacity: 0.5;
+}
+
+.grid-area:hover {
+  opacity: 1;
+  margin: 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Images of the portfolio container */
+.img-portfolio1 {
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+  padding-bottom: 8px;
+}
+
+
+.img-portfolio2 {
+  width: 100%;
+  height: 610px;
+  object-fit: cover;
+}
+
+.img-portfolio3 {
+  width: 100%;
+  height: 295px;
+  object-fit: cover;
+}
+
+.img-portfolio4 {
+  width: 100%;
+  height: 295px;
+  object-fit: cover;
+}
+
+.img-portfolio5 {
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+  padding-top: 18px;
+}
+
+/* Text box of the portfolio container */
+.heading {
+  color: white;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grid-area:hover .heading {
+  box-shadow: inset 0px 0px 5px var(--light-pink), 0 0 10px var(--light-pink);
+}
+
+/* Footer */
+.flex-footer {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.flex-footer h3 {
+  width: 25%;
+  text-align: center;
+  border-right: 2px solid black;
+}
+
+.social-media {
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h4 {
+  text-align: center;
+  font-size: 15px;
+}
+
+h4 a {
+  text-decoration: none;
+  color: var(--light-pink);
+  text-shadow: 1px 1px 2px pink;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .nav-links {
+    padding-right: 10px;
+  }
+
+  .social-media {
+    flex-direction: column;
+  }
+
+  .flex-footer h3 {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  #flex-nav {
+    flex-direction: column;
+  }
+
+  .flex-footer h3 {
+    width: 85px;
+  }
+
+  img {
+    height: 190px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+}
