@@ -37,7 +37,7 @@ N/A
 
 ## Usage
 
-To access my portfolio [click here](https://puralex.github.io/Portfolio/#)
+To access my portfolio [click here](https://puralex.github.io/Portfolio/)
 
 ## Credits
 
