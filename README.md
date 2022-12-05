@@ -2,10 +2,10 @@
 
 ## Description
 
-I created the portfolio to show the skills that I learned so far. I will improve the code while I improve and learn more skills.
+I created my **portfolio** to show the skills that I learned so far. I will improve the code while I improve and learn more skills.
 As I don't have projects to show I link each project of the porfolio to some of my GitHub repositoies and for the 5th project I used a placeholder. The website is completely resposive to any device.
 
-This project was challenging. Due to, I wasn't very familiarise with grid area. It was hard to add a link to the images.
+This project was challenging because I wasn't very familiarise with grid area and I found hard to add a link to the images. The good thing is that I learn more of grid area and I feel more confident with it.
 
 ## Screenshots
 
