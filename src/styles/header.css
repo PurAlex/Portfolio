@@ -14,8 +14,21 @@
   justify-content: center;
 }
 
+.link {
+  color: rgb(253, 50, 202);
+}
+
+.link:hover {
+  color: black;
+}
+
 .navbar-links li {
   padding: 0.5rem;
+}
+
+.toggle-button {
+  border: none !important;
+  box-shadow: none;
 }
 
 .navbar-collapse {

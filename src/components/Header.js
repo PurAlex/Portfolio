@@ -10,7 +10,7 @@ function Header() {
             <Navbar className='navbar' expand="lg">
                 <Container>
                     <Navbar.Brand className='navbar-brand' href="#home">Nicky Alexander</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle className='toggle-button' aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className='navbar-collapse'>
                         <Nav className="ms-auto">
 
@@ -19,13 +19,19 @@ function Header() {
                             <Nav.Link href="#link">Projects</Nav.Link>
                             <ul className='navbar-links'>
                                 <li>
-                                    <FaGithub />
+                                    <a className='link' href='https://github.com/PurAlex'>
+                                        <FaGithub />
+                                    </a>
                                 </li>
                                 <li>
-                                    <FaLinkedin />
+                                    <a className='link' href='https://www.linkedin.com/in/nicky-campoverde-1782a7228/'>
+                                        <FaLinkedin />
+                                    </a>
                                 </li>
                                 <li>
-                                    <FaEnvelope />
+                                    <a className='link' href='mailto:nicky-nico-1998@outlook.com'>
+                                        <FaEnvelope />
+                                    </a>
                                 </li>
                             </ul>
                         </Nav>
