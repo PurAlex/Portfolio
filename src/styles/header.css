@@ -7,3 +7,12 @@
 .navbar-brand {
   font-size: 2rem !important;
 }
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-links li {
+  padding: 0.5rem;
+}
