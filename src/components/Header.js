@@ -6,12 +6,12 @@ import '../styles/header.css';
 function Header() {
     return (
         <>
-            <Navbar expand="lg">
+            <Navbar className='navbar' expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Nicky Alexander</Navbar.Brand>
+                    <Navbar.Brand className='navbar-brand' href="#home">Nicky Alexander</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
+                        <Nav className="ms-auto">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="#link">About</Nav.Link>
                             <Nav.Link href="#link">Projects</Nav.Link>
