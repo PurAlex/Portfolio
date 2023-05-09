@@ -11,8 +11,13 @@
 .navbar-links {
   display: flex;
   list-style: none;
+  justify-content: center;
 }
 
 .navbar-links li {
   padding: 0.5rem;
+}
+
+.navbar-collapse {
+  justify-content: center;
 }
