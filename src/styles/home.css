@@ -34,6 +34,18 @@
   font-size: 1.5rem;
   background-color: rgb(253, 50, 202);
   border: none;
+  border-radius: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: 1px solid white;
+}
+
+.resume-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.resume-button a:hover {
+  color: white;
 }
 
 .technologies-content {
