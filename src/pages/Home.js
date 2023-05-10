@@ -10,12 +10,20 @@ function Home() {
                     alt='me'>
                 </img>
 
-                <ul className='main-technologies'>
-                    <h1 className='list-title'>Technologies Used</h1>
-                    <li className='technology'>HTML</li>
-                    <li className='technology'>CSS</li>
-                    <li className='technology'>JavaScript</li>
-                </ul>
+                <div className='main-content'>
+                    <h1 className='content-title'>Hey, I'm Nicky Alexander</h1>
+                    <p>A front-end developer passionate about delivering the best
+                        user experience.
+                    </p>
+                    <ul className='technologies-content'>
+                        <li className='technology'>HTML</li>
+                        <li className='technology'>CSS</li>
+                        <li className='technology'>JavaScript</li>
+                    </ul>
+                    <button className='projects-button'>Projects</button>
+                    <button className='resume-button'>Resume</button>
+
+                </div>
             </div>
         </>
     )
