@@ -31,7 +31,13 @@ function Home() {
                         </li>
                     </ul>
                     <button className='projects-button'>Projects</button>
-                    <button className='resume-button'>Resume</button>
+                    <button className='resume-button'>
+                        <a href='/CV.pdf'
+                            download
+                        >
+                            Resume
+                        </a>
+                    </button>
 
                 </div>
             </div>
