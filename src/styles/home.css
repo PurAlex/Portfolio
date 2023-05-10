@@ -48,4 +48,8 @@
     display: block;
     text-align: center;
   }
+
+  .main-img {
+    max-width: 50%;
+  }
 }
