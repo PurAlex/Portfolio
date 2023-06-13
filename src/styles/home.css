@@ -16,11 +16,8 @@
 .main-content {
   text-align: center;
   padding: 1rem;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.main-content {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  outline: dotted red;
 }
 
 .content-text {
@@ -31,12 +28,11 @@
 .projects-button,
 .resume-button {
   margin: 0.5rem;
-  font-size: 1.5rem;
-  background-color: rgb(253, 50, 202);
+  font-size: 1.3rem;
   border: none;
+  outline: solid rgb(253, 50, 202);
   border-radius: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  border: 1px solid white;
 }
 
 .resume-button a {
@@ -48,15 +44,22 @@
   color: white;
 }
 
+.resume-button:hover,
+.projects-button:hover {
+  background-color: rgb(253, 50, 202);
+  color: white;
+}
+
 .technologies-content {
   list-style: none;
   display: flex;
-  /* justify-content: center; */
   justify-content: center;
+  align-items: center;
+  padding-right: 2rem;
 }
 
 .technology {
-  padding: 0.5rem;
+  padding: 0.3rem;
   font-size: 3em;
 }
 
