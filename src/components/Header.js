@@ -14,9 +14,9 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav" className='navbar-collapse'>
                         <Nav className="ms-auto">
 
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">About</Nav.Link>
+                            <Nav.Link href="#home">About </Nav.Link>
                             <Nav.Link href="#link">Projects</Nav.Link>
+                            <Nav.Link href="#link">Contact</Nav.Link>
                             <ul className='navbar-links'>
                                 <li>
                                     <a className='link' href='https://github.com/PurAlex'>

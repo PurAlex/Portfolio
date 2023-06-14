@@ -1,0 +1,11 @@
+.cards-group {
+  outline: red dashed;
+  display: flex;
+}
+
+.project-card {
+  outline: dashed red;
+  margin: 5rem;
+  padding: 8rem;
+  width: 30rem;
+}

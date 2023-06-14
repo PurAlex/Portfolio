@@ -6,6 +6,7 @@
   margin-top: 2rem;
   background-color: rgb(32, 32, 32);
   color: white;
+  align-items: center;
 }
 
 .main-img {
@@ -17,7 +18,6 @@
   text-align: center;
   padding: 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  outline: dotted red;
 }
 
 .content-text {
@@ -28,11 +28,11 @@
 .projects-button,
 .resume-button {
   margin: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   border: none;
   outline: solid rgb(253, 50, 202);
   border-radius: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .resume-button a {
