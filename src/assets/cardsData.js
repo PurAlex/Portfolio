@@ -15,4 +15,19 @@ export const cardsData = [
         github: 'https://github.com/PurAlex/Weather-Forecast',
         website: 'https://puralex.github.io/Weather-Forecast/',
     },
+    {
+        id: 3,
+        title: "Team Profile",
+        image: require('../images/cardsData-3.jpg'),
+        description: "Generate dynamically a team profile based on user input.",
+        github: 'https://github.com/PurAlex/Team-Profile-Generator',
+    },
+    {
+        id: 4,
+        title: "Quiz Challenge",
+        image: require('../images/cardsData-4.jpg'),
+        description: "Multiple choices and questions quiz.",
+        github: 'https://github.com/PurAlex/Web-APIs',
+        website: 'https://puralex.github.io/Web-APIs/index.html',
+    },
 ]

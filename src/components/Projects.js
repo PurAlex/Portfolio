@@ -9,9 +9,12 @@ import { cardsData } from '../assets/cardsData';
 function Projects() {
     return (
         <Container fluid>
+            <div className='title-holder'>
+                <h2>Projects</h2>
+            </div>
             <Row>
                 {cardsData.map((data) => (
-                    <Col sm={4}>
+                    <Col sm={4} md={6}>
                         <Card className="bg-dark text-white project-card">
                             <Card.Img src={data.image} alt="Project image" />
                             <Card.ImgOverlay>
@@ -25,9 +28,6 @@ function Projects() {
                         </Card>
                     </Col>
                 ))}
-                {/* <div className='cards-group'> */}
-
-                {/* </div> */}
             </Row>
         </Container>
     )
