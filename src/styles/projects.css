@@ -4,8 +4,7 @@
 }
 
 .project-card {
-  outline: dashed red;
-  margin: 5rem;
+  margin: 2rem;
   padding: 8rem;
   width: 30rem;
 }
