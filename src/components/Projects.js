@@ -15,16 +15,16 @@ function Projects() {
             <Row>
                 {cardsData.map((data) => (
                     <Col sm={4} md={6}>
-                        <Card className="bg-dark text-white project-card">
-                            <Card.Img src={data.image} alt="Project image" />
-                            <Card.ImgOverlay>
+                        <Card className="project-card">
+                            <Card.Img src={data.image} alt="Project image" className='card-image' />
+                            <div className='card-information'>
                                 <Card.Title>{data.title}</Card.Title>
                                 <Card.Text>
                                     {data.description}
                                 </Card.Text>
-                                <Button variant="outline-primary">Primary</Button>{' '}
-                                <Button variant="outline-primary">Primary</Button>{' '}
-                            </Card.ImgOverlay>
+                                <Button className='card-button' variant="outline-primary">Repo</Button>{' '}
+                                <Button className='card-button' variant="outline-primary">Website</Button>{' '}
+                            </div>
                         </Card>
                     </Col>
                 ))}
