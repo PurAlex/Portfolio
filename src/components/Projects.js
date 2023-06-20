@@ -22,8 +22,8 @@ function Projects() {
                                 <Card.Text>
                                     {data.description}
                                 </Card.Text>
-                                <Button className='card-button' variant="outline-primary">Repo</Button>{' '}
-                                <Button className='card-button' variant="outline-primary">Website</Button>{' '}
+                                <Button className='card-button' variant="outline-primary" href={data.github}>Repo</Button>{' '}
+                                <Button className='card-button' variant="outline-primary" href={data.website}>Website</Button>{' '}
                             </div>
                         </Card>
                     </Col>
