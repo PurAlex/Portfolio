@@ -1,5 +1,6 @@
 import '../styles/home.css';
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaJsSquare } from 'react-icons/fa';
+import Button from 'react-bootstrap/Button';
 
 function Home() {
     return (
@@ -30,14 +31,14 @@ function Home() {
                             <FaJsSquare />
                         </li>
                     </ul>
-                    <button className='projects-button'>Projects</button>
-                    <button className='resume-button'>
-                        <a href='/CV.pdf'
+
+                    <Button className='resume-button' variant="outline-primary">
+                        <a className='resume-link' href='/CV.pdf'
                             download
                         >
                             Resume
                         </a>
-                    </button>
+                    </Button>{' '}
 
                 </div>
             </div>

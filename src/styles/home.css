@@ -25,28 +25,21 @@
   padding: 1rem;
 }
 
-.projects-button,
 .resume-button {
-  margin: 0.5rem;
-  font-size: 1.2rem;
-  border: none;
-  outline: solid rgb(253, 50, 202);
-  border-radius: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid white !important;
 }
 
-.resume-button a {
+.resume-button:hover {
+  background-color: rgb(253, 50, 202) !important;
+  border: 1px solid rgb(253, 50, 202) !important;
+}
+
+.resume-link {
   text-decoration: none;
-  color: black;
-}
-
-.resume-button a:hover {
   color: white;
 }
 
-.resume-button:hover,
-.projects-button:hover {
-  background-color: rgb(253, 50, 202);
+.resume-link:hover {
   color: white;
 }
 
