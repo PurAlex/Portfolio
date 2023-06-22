@@ -21,6 +21,7 @@ function Footer() {
                     </a>
                 </li>
             </ul>
+            <h5 className='footer-text'>&copy; Portfolio Nicky 2023 | All Rights Reserved </h5>
         </div>
     )
 }
