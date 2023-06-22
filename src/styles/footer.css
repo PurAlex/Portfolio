@@ -1,0 +1,17 @@
+.footer {
+  background-color: rgb(32, 32, 32);
+  margin-top: 2rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 2rem;
+  padding: 2rem;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  margin: 1rem;
+}
