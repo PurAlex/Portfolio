@@ -14,11 +14,11 @@
 
 .footer-link {
   margin: 1rem;
-  color: rgb(253, 50, 202);
+  color: white;
 }
 
 .footer-link:hover {
-  color: white;
+  color: rgb(253, 50, 202);
 }
 
 .footer-text {
