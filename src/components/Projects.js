@@ -15,7 +15,7 @@ function Projects() {
             <Row>
                 {cardsData.map((data) => (
                     <Col sm={4} md={6}>
-                        <Card className="project-card" >
+                        <Card key={data.id} className="project-card" >
                             <Card.Img src={data.image} alt="Project image" className='card-image' />
                             <div className='card-information'>
                                 <Card.Title>{data.title}</Card.Title>
