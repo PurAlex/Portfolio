@@ -8,12 +8,17 @@
   justify-content: center;
   list-style: none;
   font-size: 2rem;
-  padding: 1.5rem;
+  padding: 1rem;
   margin-bottom: 0;
 }
 
 .footer-link {
   margin: 1rem;
+  color: rgb(253, 50, 202);
+}
+
+.footer-link:hover {
+  color: white;
 }
 
 .footer-text {
