@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Footer() {
     return (
-        <div className="footer">
+        <div id='contact' className="footer">
             <ul className='social-links'>
                 <li>
                     <a className='footer-link' href='https://github.com/PurAlex'>

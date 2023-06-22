@@ -9,14 +9,14 @@ function Header() {
         <>
             <Navbar className='navbar' expand="lg">
                 <Container>
-                    <Navbar.Brand className='navbar-brand' href="#home">Nicky Alexander</Navbar.Brand>
+                    <Navbar.Brand className='navbar-brand'>Nicky Alexander</Navbar.Brand>
                     <Navbar.Toggle className='toggle-button' aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className='navbar-collapse'>
                         <Nav className="ms-auto">
 
-                            <Nav.Link href="#home">About </Nav.Link>
-                            <Nav.Link href="#link">Projects</Nav.Link>
-                            <Nav.Link href="#link">Contact</Nav.Link>
+                            <Nav.Link href="#about">About </Nav.Link>
+                            <Nav.Link href="#projects">Projects</Nav.Link>
+                            <Nav.Link href="#contact">Contact</Nav.Link>
                             <ul className='navbar-links'>
                                 <li>
                                     <a className='link' href='https://github.com/PurAlex'>

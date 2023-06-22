@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 function Home() {
     return (
         <>
-            <div className='main'>
+            <div id='about' className='main'>
                 <img
                     className='main-img'
                     src={require('../images/me.jpg')}

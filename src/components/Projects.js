@@ -8,7 +8,7 @@ import { cardsData } from '../assets/cardsData';
 
 function Projects() {
     return (
-        <Container fluid>
+        <Container fluid id='projects'>
             <div className='title-holder'>
                 <h2>Projects</h2>
             </div>
