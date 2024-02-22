@@ -8,14 +8,14 @@ function Home() {
             <div id='about' className='main'>
                 <img
                     className='main-img'
-                    src={require('../images/me.jpg')}
+                    src={require('../images/me2.jpg')}
                     alt='me'>
                 </img>
 
                 <div className='main-content'>
                     <h1 className='content-title'>Hey, I'm Nicky Alexander</h1>
-                    <p className='content-text'>A front-end developer passionate about delivering the best
-                        user experience.
+                    <p className='content-text'>My motivation and aptitude for rapid learning enable me
+                        to adeptly acclimate to diverse work environments.
                     </p>
                     <ul className='technologies-content'>
                         <li className='technology'>
