@@ -33,7 +33,7 @@ function Home() {
                     </ul>
 
                     <Button className='resume-button' variant="outline-primary">
-                        <a className='resume-link' href='/CV.pdf'
+                        <a className='resume-link' href='/CV (Nicky).pdf'
                             download
                         >
                             Resume
