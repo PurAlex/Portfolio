@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../styles/header.css';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function Header() {
     return (
@@ -14,26 +13,10 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav" className='navbar-collapse'>
                         <Nav className="ms-auto">
 
-                            <Nav.Link href="#about">About </Nav.Link>
-                            <Nav.Link href="#projects">Projects</Nav.Link>
-                            <Nav.Link href="#contact">Contact</Nav.Link>
-                            <ul className='navbar-links'>
-                                <li>
-                                    <a className='link' href='https://github.com/PurAlex'>
-                                        <FaGithub />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className='link' href='https://www.linkedin.com/in/nicky-campoverde-1782a7228/'>
-                                        <FaLinkedin />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className='link' href='mailto:nicky-nico-1998@outlook.com'>
-                                        <FaEnvelope />
-                                    </a>
-                                </li>
-                            </ul>
+                            <Nav.Link className='navbar-link' href="#about">About </Nav.Link>
+                            <Nav.Link className='navbar-link' href="#projects">Projects</Nav.Link>
+                            <Nav.Link className='navbar-link' href="#contact">Contact</Nav.Link>
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
