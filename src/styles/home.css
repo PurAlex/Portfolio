@@ -60,7 +60,7 @@ body {
   font-size: 3em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
   .main {
     display: block;
     text-align: center;
