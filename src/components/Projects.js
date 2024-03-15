@@ -1,35 +1,71 @@
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 import '../styles/projects.css';
-import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import { Container } from 'react-bootstrap';
-import { cardsData } from '../assets/cardsData';
+// import Button from 'react-bootstrap/Button';
 
 function Projects() {
     return (
-        <Container fluid id='projects'>
-            <div className='title-holder'>
-                <h2>Projects</h2>
+        <>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Hollywood Sign on The Hill" />
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Hollywood Sign on The Hill" />
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Hollywood Sign on The Hill" />
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Hollywood Sign on The Hill" />
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
-            <Row>
-                {cardsData.map((data) => (
-                    <Col sm={4} md={6}>
-                        <Card key={data.id} className="project-card" >
-                            <Card.Img src={data.image} alt="Project image" className='card-image' />
-                            <div className='card-information'>
-                                <Card.Title>{data.title}</Card.Title>
-                                <Card.Text>
-                                    {data.description}
-                                </Card.Text>
-                                <Button className='card-button' variant="outline-primary" href={data.github}>Repo</Button>{' '}
-                                <Button className='card-button' variant="outline-primary" href={data.website}>Website</Button>{' '}
-                            </div>
-                        </Card>
-                    </Col>
-                ))}
-            </Row>
-        </Container>
+
+
+
+        </>
+
+
     )
 }
 
