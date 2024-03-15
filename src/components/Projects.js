@@ -10,11 +10,13 @@ import cardimage4 from '../images/cardsData-4.jpg';
 function Projects() {
     return (
         <>
-
+            <div>
+                <h1 class="projects-header">Projects</h1>
+            </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
                 <div class="col">
                     <div class="card text-bg-light">
-                        <img src={cardimage1} class="card-img-top" alt="Hollywood Sign on The Hill" />
+                        <img src={cardimage1} class="card-img-top" alt="Make-up Junkie homepage image" />
                         <div class="card-img-overlay">
                             <h5 class="card-title">E-commerce Website</h5>
                             <p class="card-text">
@@ -25,7 +27,7 @@ function Projects() {
                 </div>
                 <div class="col">
                     <div class="card text-bg-light">
-                        <img src={cardimage4} class="card-img-top" alt="Hollywood Sign on The Hill" />
+                        <img src={cardimage4} class="card-img-top" alt="Quiz challenges homepage image" />
                         <div class="card-img-overlay">
                             <h5 class="card-title">Quiz Challenge</h5>
                             <p class="card-text">
@@ -36,7 +38,7 @@ function Projects() {
                 </div>
                 <div class="col">
                     <div class="card text-bg-light">
-                        <img src={cardimage2} class="card-img-top" alt="Hollywood Sign on The Hill" />
+                        <img src={cardimage2} class="card-img-top" alt="Weather forecast homepage image" />
                         <div class="card-img-overlay">
                             <h5 class="card-title">Weather Forecast</h5>
                             <p class="card-text">
@@ -48,7 +50,7 @@ function Projects() {
 
                 <div class="col">
                     <div class="card text-bg-light">
-                        <img src={cardimage3} class="card-img-top" alt="Hollywood Sign on The Hill" />
+                        <img src={cardimage3} class="card-img-top" alt="Team profile homepage image" />
                         <div class="card-img-overlay">
                             <h5 class="card-title">Team Profile</h5>
                             <p class="card-text">
