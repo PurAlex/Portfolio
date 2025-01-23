@@ -13,9 +13,11 @@ function Home() {
                 </img>
 
                 <div className='main-content'>
-                    <h1 className='content-title'>Hey, I'm Nicky Alexander</h1>
-                    <p className='content-text'>My motivation and aptitude for rapid learning enable me
-                        to adeptly acclimate to diverse work environments.
+                    <h1 className='content-title'>HEY THERE I'M</h1>
+                    <h2 className='content-name'><span class="name-one">Nicky</span> Alexander</h2>
+                    <p className='content-text'> A <span class="name-two">Front-End Developer</span> passionate about
+                        creating responsives websites.
+
                     </p>
                     <ul className='technologies-content'>
                         <li className='technology'>
