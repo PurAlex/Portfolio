@@ -21,7 +21,7 @@ function Footer() {
                     </a>
                 </li>
             </ul>
-            <h5 className='footer-text'>&copy; 2024 Portfolio Nicky </h5>
+            <h5 className='footer-text'>&copy; 2025 Portfolio Nicky </h5>
         </div>
     )
 }
