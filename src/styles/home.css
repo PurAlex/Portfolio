@@ -1,13 +1,9 @@
-body {
-  background-color: #eaf6ff !important;
-}
-
 .main {
   display: flex;
   flex-direction: row-reverse;
   padding: 2.5rem;
   justify-content: space-evenly;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   background-color: rgb(32, 32, 32);
   color: white;
   align-items: center;
