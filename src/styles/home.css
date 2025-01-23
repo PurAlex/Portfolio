@@ -82,6 +82,19 @@
   }
 
   .main-img {
-    max-width: 30%;
+    max-width: 25%;
+    margin: 1rem;
+  }
+
+  .content-title {
+    font-size: 0.8rem;
+  }
+
+  .content-text {
+    font-size: 0.8rem;
+  }
+
+  .technology {
+    font-size: 2rem;
   }
 }
