@@ -8,22 +8,31 @@
   font-size: 2rem !important;
 }
 
-.navbar-link {
-  color: black !important;
-}
-
-.navbar-link:hover {
-  color: #5f5f5f !important;
+.toggle-button {
+  font-size: 1rem !important;
+  border-color: white !important;
 }
 
 .navbar-collapse {
   display: grid;
   justify-content: center;
   align-items: center;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.navbar-link {
+  color: black !important;
+  border-top: 1px solid #5f5f5f;
+  text-align: center;
+}
+
+.navbar-link:hover {
+  color: #5f5f5f !important;
 }
 
 @media only screen and (max-width: 768px) {
   .navbar-brand {
-    font-size: 1.5rem !important;
+    font-size: 1.3rem !important;
   }
 }
